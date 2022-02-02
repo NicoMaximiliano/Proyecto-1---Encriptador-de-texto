@@ -1,6 +1,6 @@
 function getTexto(){
     let texto = document.getElementById("texto").value;
-    return texto;
+    return texto.toLowerCase();
 }
 
 function encriptarTexto(){
